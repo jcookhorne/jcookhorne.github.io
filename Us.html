@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF - 8">
+    <title>Us</title>
+<style>
+* {box-sizing:border-box}
+body{
+  background-color: lavenderblush
+}
+ul{
+    list-style-type: none; margin:0; padding:inherit; overflow:hidden;
+    background-color: rgb(90, 90, 90);
+    padding-left: 40%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: slategray;
+}
+
+.slideshow{
+    max-height: 250px;
+    max-width: 1000px;
+    position: relative;
+    margin:auto
+}
+.mySlides {
+    display: none;
+
+}
+img{
+      max-height: 250;
+      max-width: 250;
+      border: 22 black;
+  }
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+</style>
+</head>
+<body>
+    <div class = "header" id="myHeader">
+        <ul style="list-style-type:none;text-align:right">
+            <li> <a href = "HomePage.html">Home</a></li>
+             <li>  <a href = "Happy_Birthday.html">Happy Birthday</a> </li>
+             <li> <a href = "Us.html">  Us </a></li>
+         </ul>
+    </div>
+
+    <div class = "slideshow" style="padding-top: 50px;">
+
+        <div class = "mySlides fade">
+          <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_E1216%20(1).JPG" style=" width: 100%; height: 750;">
+        </div>
+        <div class = "mySlides fade">
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_1139%20(2).JPG" style=" width: 100%; height: 750;">
+          </div>
+        <div class="mySlides fade">
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_1116.JPG" style="width:100%; height: 750;">
+        </div> 
+        <div class="mySlides fade">
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_1218.JPG" style="width:100%; height: 750;">  
+          </div> 
+          <div class="mySlides fade">
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/Saved%20Pictures/IMG_E6231.JPG" style="width:100%; height: 750;">  
+          </div> 
+          <div class="mySlides fade">
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_1214.JPG" style="width:100%; height: 750;">  
+          </div>
+          <div class="mySlides fade">
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/Saved%20Pictures/IMG_0671%20(3).JPG" style="width:100%; height: 200;">  
+          </div>
+    </div>
+
+<br>
+
+<!--<button type= "button" onclick = "alert('Hello you fool!')"> Click Me! </button>-->
+
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
