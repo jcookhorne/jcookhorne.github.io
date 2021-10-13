@@ -38,9 +38,15 @@ li a:hover{
 .imgtext{
 position: absolute;
   top: 50%;
-  left: 50%;
+  left: 55%;
+  color: white;
+}
+.txtbox{
+    margin: auto;
+    position: relative;
 
 }
+
 
 </style>
 </head>
@@ -49,11 +55,11 @@ position: absolute;
          <ul style="list-style-type:none;text-align:right">
             <li> <a href = "HomePage.html">Home</a></li>
              <li>  <a href = "Happy_Birthday.html">Happy Birthday</a> </li>
-             <li> <a href = "Us.html">  Kelsie </a></li>
+             <li> <a href = "Us.html">  Us </a></li>
          </ul>
      
     </div>
-    <div style="background-image: url('file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_0468.JPG');
+    <div style="background-image: url('file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_0468.jpg');
     background-size: cover; height: 100%; width: 100%; padding-top:80px;">
     <h3 style="text-align:center; padding-top: 25%; font-size: 150px; font-family: Garamond, serif; color: whitesmoke;"> Joshua & Kelsie</h3>
     </div>
@@ -64,10 +70,10 @@ position: absolute;
 <table>
     <tr><td>
     <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_0464%20(1).JPG"
-    alt="front" width="500" height = "600" >
+    alt="front" width="500" height = "600" style="padding-left: 100px;" >
     </td>        
-    <td style="padding-left: 100px; padding-right: 100px;">  
-    <h3 style="font-family: Garamond, serif;"> Dear Kelsie,</h3>
+    <td style="padding-left: 100px; padding-right: 300px; ">  
+    <h3 style="font-family: Garamond, serif; text-align: center;"> Dear Kelsie,</h3>
     <p style="float: right; font-size: 25px;font-family: Garamond, serif; ">
         This is my first project and it may not be perfect but 
     I wanna dedicate it to you, and our relationship.
@@ -84,14 +90,15 @@ position: absolute;
     </tr>
     </table>
     <table><tr>
-        <td><a href="Kelsie.html"> 
-            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_2424.JPG" alt="US" width="750px" height="600">
-        </a></td>
-        <td><a href="Happy_Birthday.html"> 
-            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_1220.JPG" alt="US" width="750px" height="600" 
-                style="padding-left: 250px; padding-top: 100px ;">
-                <div> Kelsie </div>
-                  </a>
+        <td class="txtbox"><a href="Us.html" style="text-align: center;">
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_2424.jpg" alt="US" width="600px" height="450"
+            style="padding-left: 150px; padding-top: 100px;"></a>
+           <a href="Us.html"><h1 class="imgtext"> Us </h1></a> 
+        </td>
+        <td class="txtbox"><a href="Happy_Birthday.html"> 
+            <img src="file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_1220.jpg" alt="US" width="600px" height="450" 
+                style="padding-left: 200px; padding-top: 100px ;"></a>
+               <a href="Happy_Birthday.html" ><h1 class="imgtext"> Happy Birthday </h1></a>
                 </td>
             </tr>
 
@@ -102,7 +109,7 @@ position: absolute;
 
 
     <script>
-        
+/*        
         window.onscroll = function() {myFunction()};
         
         var header = document.getElementById("myHeader");
@@ -116,7 +123,7 @@ position: absolute;
           }
         }
         window.onscroll = function() {myFunction()};
-             
+  */           
         </script>
 </body>
 </html>
