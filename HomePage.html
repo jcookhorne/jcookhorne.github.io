@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
     <meta charset="UTF - 8">
     <title>HomePage</title>
 <style>
-html {
-  scroll-behavior: smooth;
+@-o-viewport{
+    width: device-width;
+    zoom: 1.0;
 }
 
 
@@ -59,7 +60,7 @@ position: absolute;
          </ul>
      
     </div>
-    <div style="background-image: url('file:///C:/Users/Joshua%20Cookhorne/Pictures/IMG_0468.jpg');
+    <div style="background-image: url('file:///C:/Users/Joshua%20Cookhorne/Documents/GitHub/jcookhorne.github.io/images/IMG_0468.jpg');
     background-size: cover; height: 100%; width: 100%; padding-top:80px;">
     <h3 style="text-align:center; padding-top: 25%; font-size: 150px; font-family: Garamond, serif; color: whitesmoke;"> Joshua & Kelsie</h3>
     </div>
@@ -109,6 +110,10 @@ position: absolute;
 
 
     <script>
+        var siteWidth = 1280;
+var scale = screen.width /siteWidth;
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
 /*        
         window.onscroll = function() {myFunction()};
         
