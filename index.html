@@ -44,9 +44,11 @@ position: absolute;
 .txtbox{
     margin: auto;
     position: relative;
-
 }
-
+@media screen and (max-width: 800px) {
+    .sticky,.imgtext,.txtbox, p {
+        width: 100%;
+    }}
 }
 </style>
 </head>
@@ -70,7 +72,7 @@ position: absolute;
 <table>
     <tr><td>
     <img src="../images/IMG_0464%20(1).jpg"
-    alt="front" width="500" height = "600" style="padding-left: 150px;" >
+    alt="front" width="500" height = "600" style="padding-left: 250px;" >
     </td>        
     <td style="padding-left: 100px; padding-right: 300px; ">  
     <h3 style="font-family: Garamond, serif; text-align: center;"> Dear Kelsie,</h3>
@@ -107,23 +109,5 @@ position: absolute;
 
     
 
-
-    <script>
-/*        
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        window.onscroll = function() {myFunction()};
-  */           
-        </script>
 </body>
 </html>
