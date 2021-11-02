@@ -47,6 +47,7 @@
     .txtbox{
     margin: auto;
     position: relative;
+    padding-left: 150px;
 
     }
     .fade {
@@ -73,10 +74,10 @@
       border: 22 black;
     
     }
-    h3 {text-align:center; padding-top: 25%;
-       font-size: 150px; 
+    h3 {text-align:center; padding-top: 150px;
+       font-size: 50px; 
       font-family: Garamond, serif; 
-      color: whitesmoke;
+      color: black;
     }
     p {
       font-size: 25px;
@@ -99,4 +100,4 @@
     from {opacity: .4} 
     to {opacity: 1}
     }
-    }
+    
