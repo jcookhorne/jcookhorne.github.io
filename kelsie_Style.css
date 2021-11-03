@@ -15,7 +15,7 @@
     }
     ul.header > li{
       display: inline-block;
-      padding: 75px 25px;
+      padding: 50px 25px;
     }
     ul.header > li > a{
       
@@ -36,7 +36,8 @@
     }
     .inline{
       text-align:center; 
-      padding-top: 25%;
+      padding-right: 25px;
+      padding-top: 20%;
       font-size: 150px; 
       font-family: Garamond, serif; ;
       color: whitesmoke;
@@ -46,10 +47,9 @@
       font-size: 50px; 
       font-family: Garamond, serif; 
       color: black;
-
     }
     .txt {
-      padding-left: 150px; 
+      padding-left: 50px; 
       padding-right: 250px;
       font-size: 25px;
       font-family: Garamond, serif; 
@@ -57,15 +57,21 @@
     .imgtext{
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     color: white;
 
+    }
+    .imgbox{
+      margin: auto;
+      position: relative;
+      padding-left: 150px;
+  
     }
     .txtbox{
     margin: auto;
     position: relative;
     padding-left: 150px;
-
+    padding-top: 250px;
     }
     .fade {
     animation-name: fade;
