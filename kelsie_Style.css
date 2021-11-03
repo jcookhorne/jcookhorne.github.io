@@ -89,11 +89,10 @@
     
     }
     .mySlides {
-    position: absolute;
+    position: relative;
     margin: auto;
-    display: none;
-    height: 650;
-    width: 400;
+    height: 450px;
+    width: 100%;
     
     }
     
