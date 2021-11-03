@@ -24,7 +24,12 @@
     .inTop{
       background-image:url('../images/IMG_0468.jpg');
       background-size: cover; height: 100%; width: 100%; padding-top:80px;
-      }
+      text-align:center; 
+      padding-top: 25%;
+      font-size: 150px; 
+      font-family: Garamond, serif; ;
+      color: whitesmoke;
+    }
     }
     .inline{
       text-align:center; 
