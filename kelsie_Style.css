@@ -90,6 +90,8 @@
     }
     .mySlides {
     display: none;
+    height: 650;
+    width: 400;
     
     }
     img{
@@ -101,7 +103,7 @@
     
     video{
       position: absolute; 
-      top: 100px;
+      top: 250px;
       left: 25%; 
       width: 1020px;
       height:780px; 
