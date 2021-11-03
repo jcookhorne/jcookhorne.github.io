@@ -83,21 +83,21 @@
     }
     .slideshow{
     max-height: 650px;
-    max-width: 400px;
-    position: absolute;
+    max-width: 100%;
+    position: relative;
     margin:auto
     
     }
     .mySlides {
     position: relative;
     margin: auto;
-    height: 450px;
+    height: 650px;
     width: 100%;
     
     }
     
     video{
-      position: relative;
+      position: fixed;
       top: 250px;
       left: 25%; 
       width: 1020px;
