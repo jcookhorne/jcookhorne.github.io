@@ -18,7 +18,7 @@
     ul.header > li{
       text-align: center;
       display: inline-block;
-      padding: 25% 20px;
+      padding: 150px 20px;
     }
     ul.header > li > a{
       
@@ -89,7 +89,8 @@
     
     }
     p {
-      padding: 50px 100px;
+      padding-left: 50px 
+      padding-right: 100px;
       font-size: 25px;
       font-family: Garamond, serif; 
     }
