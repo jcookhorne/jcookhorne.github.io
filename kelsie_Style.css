@@ -6,7 +6,7 @@
      width:99.15%
 
     }
-     .header{
+     ul.header{
     list-style-type: none; 
     margin:0; 
     padding:inherit; 
@@ -14,14 +14,14 @@
     background-color: rgb(90, 90, 90);
     padding-left: 25px;
     }
-    .header >li > a{
+    ul.header > li > a{
       display: block;
       color: white;
       text-align: center;
       padding: 20px;
       text-decoration: none;
       }
-      .header > li > a:hover{
+      ul.header > li > a:hover{
       background-color: rgb(71, 71, 71);
       }
     .inTop{
