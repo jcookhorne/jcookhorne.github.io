@@ -84,7 +84,7 @@
     .slideshow{
     max-height: 650px;
     max-width: 400px;
-    /*position: relative;*/
+    position: absolute;
     margin:auto
     
     }
@@ -96,6 +96,7 @@
     }
     
     video{
+      position: relative;
       top: 250px;
       left: 25%; 
       width: 1020px;
