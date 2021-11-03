@@ -43,14 +43,14 @@
     }
     .op{
       text-align:center;
-       font-size: 50px; 
+      font-size: 50px; 
       font-family: Garamond, serif; 
       color: black;
 
     }
     .txt {
-      padding-left: 50px; 
-      padding-right: 100px;
+      padding-left: 150px; 
+      padding-right: 250px;
       font-size: 25px;
       font-family: Garamond, serif; 
     }
@@ -64,7 +64,7 @@
     .txtbox{
     margin: auto;
     position: relative;
-    padding-left: 150px;
+    padding-left: 250px;
 
     }
     .fade {
