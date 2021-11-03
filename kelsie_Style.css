@@ -19,7 +19,8 @@
       padding: 10px 20px;
     }
     ul.header > li > a{
-      font-size: 20px;
+      text-align: center;
+      font-size: 50px;
       font-family: Garamond, serif;
       color: white;
       text-decoration: none;
