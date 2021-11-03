@@ -25,13 +25,7 @@
       background-image:url('../images/IMG_0468.jpg');
       background-size: cover; height: 100%; width: 100%; padding-top:80px;
     }
-    h2{
-      text-align:center; 
-      padding-top: 25%;
-      font-size: 150px; 
-      font-family: Garamond, serif; ;
-      color: whitesmoke;
-    }
+   
     }
     .inline{
       text-align:center; 
@@ -41,7 +35,7 @@
       color: whitesmoke;
     }
     .op{
-      text-align:center; padding-top: 150px;
+      text-align:center;
        font-size: 50px; 
       font-family: Garamond, serif; 
       color: black;
