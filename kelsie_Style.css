@@ -15,7 +15,7 @@
     }
     ul.header > li{
       display: inline-block;
-      padding: 150px 20px;
+      padding: 75px 25px;
     }
     ul.header > li > a{
       
@@ -64,7 +64,7 @@
     .txtbox{
     margin: auto;
     position: relative;
-    padding-left: 250px;
+    padding-left: 150px;
 
     }
     .fade {
