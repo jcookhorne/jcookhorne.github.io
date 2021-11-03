@@ -89,6 +89,8 @@
     
     }
     .mySlides {
+    position: absolute;
+    margin: auto;
     display: none;
     height: 650;
     width: 400;
