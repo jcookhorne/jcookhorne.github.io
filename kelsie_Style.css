@@ -1,156 +1,228 @@
-  *{
-    box-sizing: border-box;
-  }
+*{
+  box-sizing: border-box;
+}
+@media (min-width: 600px) { 
+ul.header{
+  position: relative;
+  list-style-type: none; 
+  margin:0; 
+  overflow:hidden;
+  background-color: rgb(90, 90, 90);
+  text-align: center;
+}
 
+ul.header > li{    
+  display: inline-block;
+  padding: 35px 20px;
+}
 
-
-     ul.header{
-    position: relative;
-    list-style-type: none; 
-    margin:0; 
-    overflow:hidden;
-    background-color: rgb(90, 90, 90);
-    text-align: center;
-    }
-    ul.header > li{
+ul.header > li > a{
+   font-size: 25px;
+  font-family: Garamond, serif;
+  color: white;
+  text-decoration: none;
       
-      display: inline-block;
-      padding: 35px 20px;
-    }
-    ul.header > li > a{
+}
+
+ul.header > li > a:hover{
+  background-color: rgb(27, 26, 26);
+}
+
+.inTop{
+  background-image:url('./images/IMG_0468.jpg');
+  background-size: cover; height: 100%; width: 100%; padding-top:600px;
+}
+.inline{
+  text-align:center; 
+  font-size: 150px; 
+  font-family: Garamond, serif; ;
+  color: whitesmoke;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.imgbox img{
+  border-radius: 50px;
+  bottom: 100px;
+  left:35px;
+  width: 500px;
+  height: 600px;
+  vertical-align: middle;
+}
+
+.head{
+  font-size: 50px; 
+  font-family: Garamond, serif; 
+  color: black;
+}
+
+.txt {
+  font-size: 25px;
+  font-family: Garamond, serif;   
+}
+
+.box img{
+  left: 25px;
+  border-radius:  30px;
+  position: relative;
+  margin:auto;
+  width: 600px;
+  height: 450px;
+  flex-wrap: wrap;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.slideshow {
+  position: relative;
+  height: 100%;
+  margin:auto   
+}
+
+.mySlides img {     
+  border-radius: 50px;
+  position: absolute;
+  left: 25%;
+  height: 750px;
+  width: 1020;  
+}
+
+iframe{
+  height: 780px;
+  width: 1020px;
+  display: block;
+  margin: 0 auto;
+} 
+}
+/* ---------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------*/
+@media (max-width: 600px) { 
+ul.header{
+  position: relative;
+  list-style-type: none; 
+  margin:0; 
+  overflow:hidden;
+  background-color: rgb(90, 90, 90);
+  text-align: center;
+}
+
+ul.header > li{    
+  display: inline-block;
+  padding: 35px 20px;
+}
+
+ul.header > li > a{
+   font-size: 25px;
+  font-family: Garamond, serif;
+  color: white;
+  text-decoration: none;
       
-      font-size: 25px;
-      font-family: Garamond, serif;
-      color: white;
-      text-decoration: none;
-      
-      }
-      ul.header > li > a:hover{
-      background-color: rgb(27, 26, 26);
-      }
+}
+
+ul.header > li > a:hover{
+  background-color: rgb(27, 26, 26);
+}
+
+.inTop{
+  background-image:url('./images/IMG_0468.jpg');
+  background-size: cover; height: 100%; width: 100%; padding-top:400px;
+}
+.inline{
+  text-align:center; 
+  font-size: 150px; 
+  font-family: Garamond, serif; ;
+  color: whitesmoke;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.imgbox img{
+  border-radius: 50px;
+  bottom: 100px;
+  left:35px;
+  width: 500px;
+  height: 600px;
+  vertical-align: middle;
+}
+
+.head{
+  font-size: 50px; 
+  font-family: Garamond, serif; 
+  color: black;
+}
+
+.txt {
+  font-size: 25px;
+  font-family: Garamond, serif;   
+}
+
+.box img{
+  left: 25px;
+  border-radius:  30px;
+  position: relative;
+  margin:auto;
+  width: 600px;
+  height: 450px;
+  flex-wrap: wrap;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.slideshow {
+  position: relative;
+  height: 100%;
+  margin:auto   
+}
+
+.mySlides img {     
+  border-radius: 50px;
+  position: absolute;
+  left: 25%;
+  height: 750px;
+  width: 1020;  
+}
+
+iframe{
+  height: 780px;
+  width: 1020px;
+  display: block;
+  margin: 0 auto;
+} 
+
+}
 
 
-  .inTop{
-      background-image:url('./images/IMG_0468.jpg');
-      background-size: cover; height: 100%; width: 100%; padding-top:80px;
-    }
-   
-    
-    .inline{
-      text-align:center; 
-      padding-right: 25px;
-      padding-top: 20%;
-      font-size: 150px; 
-      font-family: Garamond, serif; ;
-      color: whitesmoke;
-    }
-    .op{
-      text-align:center;
-      font-size: 50px; 
-      font-family: Garamond, serif; 
-      color: black;
-      padding-right: 50px;
-    }
-    .txt {
-      padding-left: 50px; 
-      padding-right: 250px;
-      font-size: 25px;
-      font-family: Garamond, serif; 
-    }
-    .imgtext{
-    position: absolute;
-    top: 60%;
-    left: 54%;
-    color: white;
 
-    }
-    .imgbox img{
-      
-      margin: auto;
-      position: relative;
-      bottom: 100px;
-      left:35px;
-      width: 500px;
-      height: 600px;
-  
-    }
-    .box img{
-    left: 25px;
-    border-radius:  30px;
-    position: relative;
-    margin:auto;
-    width: 600px;
-    height: 450px;
-    
 
-    }
-    .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
 
-    }
-    .slideshow {
 
-    position: relative;
-    height: 100px;
-    margin:auto
-    
-    }
-    .mySlides img {
-      border: black;
-      border-radius: 50px;
-    position: absolute;
-    left: 25%;
-    height: 750px;
-    width: 1020px;
-    
-    }
-    iframe{
-      height: 780px;
-      width: 1020px;
-      display: block;
-      margin: 0 auto;
-    } 
+
+
+
+
+
 /* mobile */
     
       /* For mobile phones: */
       [class*="col-"] {
         width: 100%;
       }
-    
    /* for tablet? */
-   @media only screen and (max-width: 600px) {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-   }
-   @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
-
+      
     @-webkit-keyframes fade {
      from {opacity: .4} 
     to {opacity: 1}
