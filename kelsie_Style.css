@@ -7,6 +7,7 @@
 
     }
      ul.header{
+    position: relative;
     list-style-type: none; 
     margin:0; 
     overflow:hidden;
@@ -14,8 +15,9 @@
     text-align: center;
     }
     ul.header > li{
+      
       display: inline-block;
-      padding: 25px 25px;
+      padding: 35px 20px;
     }
     ul.header > li > a{
       
@@ -28,7 +30,9 @@
       ul.header > li > a:hover{
       background-color: rgb(27, 26, 26);
       }
-    .inTop{
+
+
+  .inTop{
       background-image:url('./images/IMG_0468.jpg');
       background-size: cover; height: 100%; width: 100%; padding-top:80px;
     }
@@ -62,17 +66,25 @@
     color: white;
 
     }
-    .imgbox{
+    .imgbox img{
+      
       margin: auto;
       position: relative;
-      padding-left: 150px;
+      bottom: 100px;
+      left:35px;
+      width: 500px;
+      height: 600px;
   
     }
-    .txtbox{
-    margin: auto;
+    .box img{
+    left: 25px;
+    border-radius:  30px;
     position: relative;
-    padding-left: 150px;
-    padding-top: 50px;
+    margin:auto;
+    width: 600px;
+    height: 450px;
+    
+
     }
     .fade {
     animation-name: fade;
