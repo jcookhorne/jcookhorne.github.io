@@ -88,8 +88,7 @@ ul.header > li > a:hover{
 
 .mySlides img {     
   border-radius: 50px;
-  position: absolute;
-  left: 5%;
+  position: relative;
   height: 750px;
   width: 100%;  
 }
