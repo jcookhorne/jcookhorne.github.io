@@ -30,11 +30,11 @@ ul.header > li > a:hover{
 
 .inTop{
   background-image:url('./images/IMG_0468.jpg');
-  background-size: cover; height: 100%; width: 100%; padding-top:600px;
+  background-size: cover;  background-position: center; padding-top:1000px;
 }
 .inline{
   text-align:center; 
-  font-size: 150px; 
+  font-size: 6vw; 
   font-family: Garamond, serif; ;
   color: whitesmoke;
 }
@@ -48,30 +48,29 @@ ul.header > li > a:hover{
   border-radius: 50px;
   bottom: 100px;
   left:35px;
-  width: 500px;
-  height: 600px;
+  max-width: 100%;
+  object-fit:cover;
   vertical-align: middle;
 }
 
 .head{
-  font-size: 50px; 
+  font-size: 3vw; 
   font-family: Garamond, serif; 
   color: black;
+  padding: 3%;
 }
 
 .txt {
-  font-size: 25px;
+  font-size: 2vw;
   font-family: Garamond, serif;   
 }
 
 .box img{
-  left: 25px;
   border-radius:  30px;
-  position: relative;
-  margin:auto;
-  width: 600px;
-  height: 450px;
-  flex-wrap: wrap;
+  width: 32.5%;
+  float: left;
+  height: 100%;
+  margin-right: .5%;
 }
 .fade {
   animation-name: fade;
@@ -82,16 +81,17 @@ ul.header > li > a:hover{
 
 .slideshow {
   position: relative;
-  height: 100%;
+  height: 720;
+  width: 1020px;
   margin:auto   
 }
 
 .mySlides img {     
   border-radius: 50px;
   position: absolute;
-  left: 25%;
+  left: 5%;
   height: 750px;
-  width: 1020;  
+  width: 100%;  
 }
 
 iframe{
@@ -104,110 +104,6 @@ iframe{
 /* ---------------------------------------------------------------------*/
 /* ---------------------------------------------------------------------*/
 @media (max-width: 600px) { 
-ul.header{
-  position: relative;
-  list-style-type: none; 
-  margin:0; 
-  overflow:hidden;
-  background-color: rgb(90, 90, 90);
-  text-align: center;
-}
-
-ul.header > li{    
-  display: inline-block;
-  padding: 35px 20px;
-}
-
-ul.header > li > a{
-   font-size: 25px;
-  font-family: Garamond, serif;
-  color: white;
-  text-decoration: none;
-      
-}
-
-ul.header > li > a:hover{
-  background-color: rgb(27, 26, 26);
-}
-
-.inTop{
-  background-image:url('./images/IMG_0468.jpg');
-  background-size: cover; height: 100%; width: 100%; padding-top:400px;
-}
-.inline{
-  text-align:center; 
-  font-size: 150px; 
-  font-family: Garamond, serif; ;
-  color: whitesmoke;
-}
-
-.container{
-  display: flex;
-  align-items: center;
-}
-
-.imgbox img{
-  border-radius: 50px;
-  bottom: 100px;
-  left:35px;
-  width: 500px;
-  height: 600px;
-  vertical-align: middle;
-}
-
-.head{
-  font-size: 50px; 
-  font-family: Garamond, serif; 
-  color: black;
-}
-
-.txt {
-  font-size: 25px;
-  font-family: Garamond, serif;   
-}
-
-.box img{
-  left: 25px;
-  border-radius:  30px;
-  position: relative;
-  margin:auto;
-  width: 600px;
-  height: 450px;
-  flex-wrap: wrap;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-.slideshow {
-  position: relative;
-  height: 100%;
-  margin:auto   
-}
-
-.mySlides img {     
-  border-radius: 50px;
-  position: absolute;
-  left: 25%;
-  height: 750px;
-  width: 1020;  
-}
-
-iframe{
-  height: 780px;
-  width: 1020px;
-  display: block;
-  margin: 0 auto;
-} 
-
-}
-
-
-
-
 
 
 
