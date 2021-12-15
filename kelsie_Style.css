@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-@media (min-width: 600px) { 
+@media (min-width: 300px) { 
 ul.header{
   position: relative;
   list-style-type: none; 
